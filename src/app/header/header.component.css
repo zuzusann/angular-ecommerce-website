@@ -1,0 +1,44 @@
+.ekart-header{
+    width: 100%;
+    height: 11%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: #E5E4E2 1.5px solid;
+}
+
+.ekart-header-nav{
+    width: 80%;
+    padding: 1vh 2vh;
+    font-size: 22px;
+}
+
+.ekart-logo{
+    color: black;
+}
+
+.ekart-top-bar{
+    width: auto;
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    margin: 30px 0;
+}
+
+.ekert-bottom-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ekart-top-bar a,.ekert-bottom-bar a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+
+.ekrat-search-bar .ekart-serch-box{
+    padding: 10px;
+    background-color: #fff;
+}
+
+
