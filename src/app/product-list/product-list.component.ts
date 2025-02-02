@@ -7,12 +7,15 @@ import { Component} from '@angular/core';
 })
 export class ProductListComponent{
 
+  name = 'John Doe'
+
   product = {
     name: 'iPhone X',
     price: 789,
     color: 'Black',
     discount: 8.5,
-    inStock: 5
+    inStock: 5,
+    pImage: 'assets/images/iphoneX.png'
   }
 
   getDiscountedPrice(){
