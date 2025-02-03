@@ -7,6 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchComponent{
 
-  searchText: string = 'Womens watch';
+  searchText: string = '';
 
 }
