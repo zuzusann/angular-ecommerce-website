@@ -45,7 +45,7 @@ export class ProductListItemComponent{
       size: [6, 7, 8, 8, 10],
       color: ["White", "Blue", "Black"],
       price: 160,
-      is_in_inventery: true,
+      is_in_inventery: false,
       items_left: 3,
       imageUrl: "assets/images/iphoneX-removebg-preview.png",
       slug: "nike-react-infinity-run-flykint"
@@ -73,7 +73,7 @@ export class ProductListItemComponent{
       size: [6, 7, 8, 8, 10],
       color: ["White", "Blue", "Black"],
       price: 160,
-      is_in_inventery: true,
+      is_in_inventery: false,
       items_left: 3,
       imageUrl: "assets/images/iphoneX-removebg-preview.png",
       slug: "nike-react-infinity-run-flykint"
@@ -115,7 +115,7 @@ export class ProductListItemComponent{
       size: [6, 7, 8, 8, 10],
       color: ["White", "Blue", "Black"],
       price: 160,
-      is_in_inventery: true,
+      is_in_inventery: false,
       items_left: 3,
       imageUrl: "assets/images/iphoneX-removebg-preview.png",
       slug: "nike-react-infinity-run-flykint"
