@@ -9,7 +9,8 @@ import { MainMenuComponent } from './header/main-menu/main-menu.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { SearchComponent } from './product-list/search/search.component';
 import { FormsModule } from '@angular/forms';
-import { ProductListItemComponent } from './product-list/product-list-item/product-list-item.component'; 
+import { ProductListItemComponent } from './product-list/product-list-item/product-list-item.component';
+import { ProductComponent } from './product-list/product-list-item/product/product.component'; 
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProductListItemComponent } from './product-list/product-list-item/produ
     MainMenuComponent,
     ProductListComponent,
     SearchComponent,
-    ProductListItemComponent
+    ProductListItemComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
