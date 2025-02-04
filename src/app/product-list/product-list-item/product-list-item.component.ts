@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'product-list-item',
@@ -26,7 +26,7 @@ export class ProductListItemComponent{
     },
     {
       id:2,
-      name: "Nike React Infinity Run Flyknit",
+      name: "Pixel",
       brand: "NIKE",
       gender: "MEN",
       description: "RRRNNNNNN",
@@ -41,7 +41,7 @@ export class ProductListItemComponent{
     },
     {
       id:3,
-      name: "Nike React Infinity Run Flyknit",
+      name: "Fester",
       brand: "NIKE",
       gender: "MEN",
       description: "RRRNNNNNN",
@@ -101,8 +101,8 @@ export class ProductListItemComponent{
     },
     {
       id:7,
-      name: "Nike React Infinity Run Flyknit",
-      brand: "NIKE",
+      name: "Beck",
+      brand: "ADDIADS",
       gender: "MEN",
       description: "RRRNNNNNN",
       category: "RUNNING",
@@ -116,8 +116,8 @@ export class ProductListItemComponent{
     },
     {
       id:8,
-      name: "Nike React Infinity Run Flyknit",
-      brand: "NIKE",
+      name: "Beck",
+      brand: "Beck",
       gender: "MEN",
       description: "RRRNNNNNN",
       category: "RUNNING",
@@ -141,4 +141,7 @@ export class ProductListItemComponent{
   onFilterChanged(value: string){
     this.selectedFilterRadioButton = value;
   }
+
+  @Input()
+  searchText: string = '';
 }

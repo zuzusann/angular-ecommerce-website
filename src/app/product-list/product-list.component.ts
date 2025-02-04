@@ -9,4 +9,9 @@ export class ProductListComponent{
 
   listOfString: number[] = [1, 2, 3, 4, 5];
 
+  searchText: string = '';
+
+  setSearchText(value: string){
+    this.searchText = value;
+  }
 }
