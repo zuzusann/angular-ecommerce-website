@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductListItemComponent{
 
+  
   products = [
     {
       id:1,
@@ -128,6 +129,9 @@ export class ProductListItemComponent{
       imageUrl: "assets/images/iphoneX-removebg-preview.png",
       slug: "nike-react-infinity-run-flykint"
     }
-  ]
+  ];
 
+  totalProductCount = this.products.length;
+  totalProductInStock = this.products.filter( p => p.is_in_inventery === true).length;
+  totalProductOutOfStock = this.products.filter(p => p.is_in_inventery === false).length;
 }

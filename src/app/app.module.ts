@@ -10,7 +10,8 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { SearchComponent } from './product-list/search/search.component';
 import { FormsModule } from '@angular/forms';
 import { ProductListItemComponent } from './product-list/product-list-item/product-list-item.component';
-import { ProductComponent } from './product-list/product-list-item/product/product.component'; 
+import { ProductComponent } from './product-list/product-list-item/product/product.component';
+import { FilterComponent } from './product-list/product-list-item/filter/filter.component'; 
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProductComponent } from './product-list/product-list-item/product/produ
     ProductListComponent,
     SearchComponent,
     ProductListItemComponent,
-    ProductComponent
+    ProductComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule,

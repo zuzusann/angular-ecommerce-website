@@ -1,0 +1,9 @@
+.filter-container{
+    flex-wrap: wrap;
+    padding: 0px 20vh;
+}
+
+input[type = radio]{
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
